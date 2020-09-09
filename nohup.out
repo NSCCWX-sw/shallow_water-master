@@ -1,0 +1,123 @@
+bsub -b -I -q q_sw_expr -n 9 -cgsp 64 -share_size 7000 -host_stack 128 ./main.x 
+Job <46724473> has been submitted to queue <q_sw_expr>
+waiting for dispatch ...
+**********START EXECUTION**********
+**********START EXECUTION**********
+**********START EXECUTION**********
+**********START EXECUTION**********
+**********START EXECUTION**********
+**********START EXECUTION**********
+**********START EXECUTION**********
+**********START EXECUTION**********
+**********START EXECUTION**********
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+dimx,dimy 258,258
+258
+Flat case
+258, 258
+function initialize is done.
+function initialize is done.
+Grid resolution : 27.8x27.8
+Max Depth : 10
+function initialize is done.
+function initialize is done.
+Grid resolution : 27.8x27.8
+Max Depth : 10
+function initialize is done.
+Grid resolution : 27.8x27.8
+Max Depth : 10
+function initialize is done.
+Grid resolution : 27.8x27.8
+function initialize is done.
+Grid resolution : 27.8x27.8
+Max Depth : 10
+Min Depth : 10
+function initialize is done.
+Grid resolution : 27.8x27.8
+Max Depth : 10
+Min Depth : 10
+function initialize is done.
+Grid resolution : 27.8x27.8
+Max Depth : 10
+Min Depth : 10
+Min Depth : 10
+SWW solve starts.
+Min Depth : 10
+Min Depth : 10
+Max Depth : 10
+Min Depth : 10
+Grid resolution : 27.8x27.8
+Max Depth : 10
+Min Depth : 10
+8, coords2 2, neighbors{l, r, u, d}7 -1 5 -1
+0, coords0 0, neighbors{l, r, u, d}-1 1 -1 3
+1, coords0 1, neighbors{l, r, u, d}0 2 -1 4
+2, coords0 2, neighbors{l, r, u, d}1 -1 -1 5
+3, coords1 0, neighbors{l, r, u, d}-1 4 0 6
+4, coords1 1, neighbors{l, r, u, d}3 5 1 7
+5, coords1 2, neighbors{l, r, u, d}4 -1 2 8
+6, coords2 0, neighbors{l, r, u, d}-1 7 3 -1
+Grid resolution : 27.8x27.8
+Max Depth : 10
+Min Depth : 10
+7, coords2 1, neighbors{l, r, u, d}6 8 4 -1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░|
+|░░░░Shallow Water 2D░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░|
+|░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░|
+|░░░░berkay pirlepeli░░░░2019░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░|
+|░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Simulation Loop
+Simulation Loop
+Simulation Loop
+Simulation Loop
+Simulation Loop
+Simulation Loop
+Simulation Loop
+Simulation Loop
+1.69833e-312
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  3  3  3  3  3  3  3  3  4
+  4  4  4  4  4  4  4  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  0
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4
+  4  4  4  4  4  4  4  5  5  5  5  5  5  5  5  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6
+  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6
+  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5
+Simulation Loop
+[46724473 ## Tue Jan  7 14:08:03 2020] receive request of kill job(bkill).
+dispatching ...
+Job 46724473 has been finished. exit_code is 102
+make: *** [run] 错误 102

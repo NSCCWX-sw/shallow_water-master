@@ -1,0 +1,8 @@
+rm -f *.o *.x
+rm -f ./eta/*
+rm -f ./png/*
+g++ -c Grid.cpp -I/usr/sw-mpp/apps/lib/netcdf/include
+# sw5CC -o main.x main.cpp Grid.o -I/usr/include/ -I. -lnetcdf_c++
+sw5CC -o main.x main.cpp Grid.o -I/usr/sw-mpp/apps/lib/netcdf/include  -L/usr/sw-mpp/apps/netcdf/netcdf-4.1.2/cxx/.libs/ -lnetcdf_c++
+sw5CC: please add -host or -slave
+# sw5CC -o main.x main.cpp Grid.o
